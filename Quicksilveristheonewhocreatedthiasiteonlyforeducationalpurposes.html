@@ -1,0 +1,2054 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Hackers Home</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Hacking Assets Dashboard</h1>
+    <p>This is the main website with several hacking assets.</p>
+    
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search for tools...">
+      <button onclick="searchAssets()">Search</button>
+    </div>
+    
+    <!-- Asset List -->
+    <div id="assets-list">
+      <div class="asset">
+        <h2>Tool 1: TensorFlow</h2>
+        <p>Description: An open-source machine learning framework for everyone.</p>
+        <a href="https://github.com/tensorflow/tensorflow/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 2: Kubernetes</h2>
+        <p>Description: An open-source system for automating deployment, scaling, and management of containerized applications.</p>
+        <a href="https://github.com/kubernetes/kubernetes/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 3: React</h2>
+        <p>Description: A JavaScript library for building user interfaces.</p>
+        <a href="https://github.com/facebook/react/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 4: Vue.js</h2>
+        <p>Description: A progressive framework for building user interfaces.</p>
+        <a href="https://github.com/vuejs/vue/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 5: Ansible</h2>
+        <p>Description: An open-source automation tool for IT tasks such as configuration management, application deployment, and task automation.</p>
+        <a href="https://github.com/ansible/ansible/archive/refs/heads/devel.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 6: Docker</h2>
+        <p>Description: A platform for developing, shipping, and running applications in containers.</p>
+        <a href="https://github.com/moby/moby/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 7: Node.js</h2>
+        <p>Description: A JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
+        <a href="https://github.com/nodejs/node/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 8: Bootstrap</h2>
+        <p>Description: A popular framework for building responsive, mobile-first sites using HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/twbs/bootstrap/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 9: Angular</h2>
+        <p>Description: A platform for building mobile and desktop web applications.</p>
+        <a href="https://github.com/angular/angular/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 10: Electron</h2>
+        <p>Description: A framework for building cross-platform desktop apps with JavaScript, HTML, and CSS.</p>
+        <a href="https://github.com/electron/electron/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 11: Redis</h2>
+        <p>Description: An open-source in-memory data structure store, used as a database, cache, and message broker.</p>
+        <a href="https://github.com/redis/redis/archive/refs/heads/unstable.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 12: Django</h2>
+        <p>Description: A high-level Python web framework that encourages rapid development and clean, pragmatic design.</p>
+        <a href="https://github.com/django/django/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 13: Flask</h2>
+        <p>Description: A micro web framework written in Python.</p>
+        <a href="https://github.com/pallets/flask/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 14: Spring Boot</h2>
+        <p>Description: A framework that simplifies the development of new Spring applications.</p>
+        <a href="https://github.com/spring-projects/spring-boot/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 15: Laravel</h2>
+        <p>Description: A web application framework with expressive, elegant syntax.</p>
+        <a href="https://github.com/laravel/laravel/archive/refs/heads/11.x.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 16: Ruby on Rails</h2>
+        <p>Description: A server-side web application framework written in Ruby.</p>
+        <a href="https://github.com/rails/rails/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 17: React Native</h2>
+        <p>Description: A framework for building native apps using React.</p>
+        <a href="https://github.com/facebook/react-native/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 18: TensorFlow.js</h2>
+        <p>Description: A library for developing and training ML models in JavaScript.</p>
+        <a href="https://github.com/tensorflow/tfjs/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 19: Apache Spark</h2>
+        <p>Description: A unified analytics engine for large-scale data processing.</p>
+        <a href="https://github.com/apache/spark/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Tool 20: Elasticsearch</h2>
+        <p>Description: A distributed, RESTful search and analytics engine.</p>
+        <a href="https://github.com/elastic/elasticsearch/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 21: Password Cracker</h2>
+        <p>Description: A simple password cracker tool developed in Python using the Tkinter GUI framework to decrypt hashes.</p>
+        <a href="https://github.com/git-aamar/Polycrypt-Password-Cracker/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 22: KeyloggerScreenshot</h2>
+        <p>Description: KeyloggerScreenshot is an intelligent tool which logs keys, makes a Screenshot every 20 seconds, records the mouse click with x and y positioning and records the audio of the target. The data will be sent to you via sockets.</p>
+        <a href="https://github.com/Kill0geR/KeyloggerScreenshot/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 23: Password Generator</h2>
+        <p>Description: A simple password generator tool developed in Python using the Tkinter GUI framework.</p>
+        <a href="https://github.com/cheran-senthil/PyPasswordGenerator/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 24: Cipher Decoder</h2>
+        <p>Description: A tool to decode classical ciphers such as Caesar, Atbash, and Vigenère ciphers.</p>
+        <a href="https://github.com/chohyeonkeun/ClassicalCipherDecoder/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 25: Python Hacking Tools</h2>
+        <p>Description: A collection of tools for penetration testing and security assessments written in Python.</p>
+        <a href="https://github.com/dhaneshkm/Python-Hacking-Tools/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 26: Metasploit Framework</h2>
+        <p>Description: A penetration testing platform that enables you to find and exploit vulnerabilities.</p>
+        <a href="https://github.com/rapid7/metasploit-framework/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 27: Nmap</h2>
+        <p>Description: A network scanning tool used to discover hosts and services on a network.</p>
+        <a href="https://github.com/nmap/nmap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 28: Burp Suite</h2>
+        <p>Description: A web vulnerability scanner and proxy tool for web application security testing.</p>
+        <a href="https://portswigger.net/burp/releases" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 29: Aircrack-ng</h2>
+        <p>Description: A suite of tools for assessing WiFi network security and cracking WEP and WPA/WPA2 keys.</p>
+        <a href="https://github.com/aircrack-ng/aircrack-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 30: John the Ripper</h2>
+        <p>Description: A fast password cracker that supports various hashing algorithms.</p>
+        <a href="https://github.com/openwall/john/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 31: Hydra</h2>
+        <p>Description: A parallelized login cracker that supports numerous protocols and services.</p>
+        <a href="https://github.com/vanhauser-thc/thc-hydra/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 32: Wireshark</h2>
+        <p>Description: A network protocol analyzer used for network troubleshooting, analysis, and software development.</p>
+        <a href="https://github.com/wireshark/wireshark/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 33: Ettercap</h2>
+        <p>Description: A comprehensive suite for man-in-the-middle attacks on LAN.</p>
+        <a href="https://github.com/Ettercap/ettercap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 34: Social Engineer Toolkit (SET)</h2>
+        <p>Description: A framework for testing social engineering attacks and techniques.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 35: Maltego</h2>
+        <p>Description: An open-source intelligence and forensics application used to gather information.</p>
+        <a href="https://github.com/paterva/maltego-trx/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 36: SEToolkit</h2>
+        <p>Description: An advanced framework for testing social engineering attacks.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 37: Nikto</h2>
+        <p>Description: A web server scanner that tests for various vulnerabilities and issues.</p>
+        <a href="https://github.com/sullo/nikto/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 38: OWASP ZAP</h2>
+        <p>Description: An open-source web application security scanner.</p>
+        <a href="https://github.com/zaproxy/zaproxy/archive/refs/heads/main.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 39: BeEF (Browser Exploitation Framework)</h2>
+        <p>Description: A penetration testing tool that focuses on the web browser.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 40: Driftnet</h2>
+        <p>Description: A tool that captures images from network traffic.</p>
+        <a href="https://github.com/driftnet/driftnet/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 41: SQLmap</h2>
+        <p>Description: An open-source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws.</p>
+        <a href="https://github.com/sqlmapproject/sqlmap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 42: TheHarvester</h2>
+        <p>Description: A tool for gathering email accounts and domain information from public sources.</p>
+        <a href="https://github.com/laramies/theHarvester/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 43: Recon-ng</h2>
+        <p>Description: A full-featured reconnaissance framework that provides a powerful environment for open-source intelligence gathering.</p>
+        <a href="https://github.com/lanmaster53/recon-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 44: Shodan</h2>
+        <p>Description: A search engine for internet-connected devices.</p>
+        <a href="https://github.com/achilles-shodan/shodan/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 45: SEToolkit (Social Engineer Toolkit)</h2>
+        <p>Description: A framework designed for social engineering attacks, including phishing and credential harvesting.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 46: Ghost Phisher</h2>
+        <p>Description: A tool for phishing and man-in-the-middle attacks.</p>
+        <a href="https://github.com/entynetproject/ghost-phisher/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 47: Evil-WinRM</h2>
+        <p>Description: A Ruby tool for Windows Remote Management (WinRM) for Windows exploitation.</p>
+        <a href="https://github.com/Hackplayers/evil-winrm/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 48: Cobalt Strike</h2>
+        <p>Description: A threat emulation tool for advanced adversary simulations and red teaming.</p>
+        <a href="https://www.cobaltstrike.com/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 49: MISP (Malware Information Sharing Platform)</h2>
+        <p>Description: A threat intelligence platform to improve the sharing of structured threat information.</p>
+        <a href="https://github.com/MISP/MISP/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 50: Kismet</h2>
+        <p>Description: A wireless network detector, sniffer, and intrusion detection system.</p>
+        <a href="https://github.com/kismetwireless/kismet/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 51: RIPS</h2>
+        <p>Description: A static code analysis tool for detecting vulnerabilities in PHP code.</p>
+        <a href="https://github.com/rips/rips/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 52: WiFi-Pumpkin</h2>
+        <p>Description: An advanced, modular, and flexible rogue Wi-Fi access point framework.</p>
+        <a href="https://github.com/evait-security/wifi-pumpkin/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 53: Beef (Browser Exploitation Framework)</h2>
+        <p>Description: A penetration testing tool focusing on the web browser.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 54: Cain and Abel</h2>
+        <p>Description: A tool for recovering passwords and analyzing network protocols.</p>
+        <a href="https://www.oxid.it/cain.html" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 55: XSSer</h2>
+        <p>Description: An automatic web application vulnerability scanner for cross-site scripting (XSS).</p>
+        <a href="https://github.com/epsylon/xsser/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 56: w3af</h2>
+        <p>Description: A web application attack and audit framework.</p>
+        <a href="https://github.com/w3af/w3af/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 57: Sn1per</h2>
+        <p>Description: An automated scanner for penetration testing that helps identify vulnerabilities.</p>
+        <a href="https://github.com/1N3/Sn1per/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 58: Arachni</h2>
+        <p>Description: A feature-full, modular web application security scanner.</p>
+        <a href="https://github.com/Arachni/arachni/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 59: Vulnx</h2>
+        <p>Description: A vulnerability scanner for web applications, with a focus on XSS and SQL Injection.</p>
+        <a href="https://github.com/VulnX/VulnX/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 60: Empire</h2>
+        <p>Description: A post-exploitation and adversary simulation framework with a powerful scripting engine.</p>
+        <a href="https://github.com/EmpireProject/Empire/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 61: Hping3</h2>
+        <p>Description: A network tool that can be used to generate network traffic and perform various network tests.</p>
+        <a href="https://github.com/antirez/hping/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 62: Dshell</h2>
+        <p>Description: A framework for analyzing and extracting data from network traffic.</p>
+        <a href="https://github.com/USCInternetArchitectureLab/Dshell/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 63: Phishing Frenzy</h2>
+        <p>Description: A phishing framework for managing and automating phishing attacks.</p>
+        <a href="https://github.com/xfocus/phishing-frenzy/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 64: Pupy</h2>
+        <p>Description: A cross-platform remote administration tool and post-exploitation framework.</p>
+        <a href="https://github.com/n1nj4sec/pupy/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 65: Netcat</h2>
+        <p>Description: A versatile networking tool used for network diagnostics and debugging.</p>
+        <a href="https://github.com/nmap/ncat/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 66: RAT (Remote Administration Tool)</h2>
+        <p>Description: A general-purpose remote administration tool for managing remote systems.</p>
+        <a href="https://github.com/Armitage/Armitage/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 67: EWS (Evil-WinRM)</h2>
+        <p>Description: A Ruby-based tool for Windows Remote Management (WinRM) access.</p>
+        <a href="https://github.com/Hackplayers/evil-winrm/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 68: Fast-Track</h2>
+        <p>Description: An open-source exploitation framework designed for automated exploitation.</p>
+        <a href="https://github.com/fasttrack/fasttrack/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 69: BEEF (Browser Exploitation Framework)</h2>
+        <p>Description: A penetration testing tool focusing on the web browser.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 70: Ghost Phisher</h2>
+        <p>Description: A tool for phishing and man-in-the-middle attacks.</p>
+        <a href="https://github.com/entynetproject/ghost-phisher/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 71: Social Engineering Toolkit (SET)</h2>
+        <p>Description: A framework for testing social engineering attacks and techniques.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 72: Wifite</h2>
+        <p>Description: A tool for automating wireless network cracking.</p>
+        <a href="https://github.com/derv82/wifite/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 73: Cuckoo Sandbox</h2>
+        <p>Description: An automated malware analysis system.</p>
+        <a href="https://github.com/cuckoosandbox/cuckoo/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 74: Kautilya</h2>
+        <p>Description: An advanced multi-platform and multi-modular penetration testing framework.</p>
+        <a href="https://github.com/kautilya/kautilya/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 75: DuckHunter</h2>
+        <p>Description: A tool for detecting hidden threats and vulnerabilities.</p>
+        <a href="https://github.com/duckhunter/duckhunter/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 76: Scapy</h2>
+        <p>Description: A Python-based network packet manipulation tool.</p>
+        <a href="https://github.com/secdev/scapy/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 77: Log4j Scanner</h2>
+        <p>Description: A tool for scanning Log4j vulnerabilities.</p>
+        <a href="https://github.com/log4j-scan/log4j-scanner/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 78: Lynis</h2>
+        <p>Description: An open-source security auditing tool for Unix-based systems.</p>
+        <a href="https://github.com/CISOfy/lynis/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 79: Sublist3r</h2>
+        <p>Description: A tool for discovering subdomains of a target domain.</p>
+        <a href="https://github.com/aboul3la/Sublist3r/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 80: Ncrack</h2>
+        <p>Description: A high-speed network authentication cracking tool.</p>
+        <a href="https://github.com/nmap/ncrack/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 81: Fimap</h2>
+        <p>Description: A tool for automating and detecting file inclusion vulnerabilities.</p>
+        <a href="https://github.com/evait-security/fimap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 82: Hacking Tools Collection</h2>
+        <p>Description: A comprehensive collection of hacking tools and scripts.</p>
+        <a href="https://github.com/awesome-hacking/hacking-tools/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 83: XSS-Exploit</h2>
+        <p>Description: A tool for exploiting cross-site scripting (XSS) vulnerabilities.</p>
+        <a href="https://github.com/xss-exploit/xss-exploit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 84: CrackMapExec</h2>
+        <p>Description: A Swiss Army knife for pentesters and red teamers to help with common Windows / Active Directory attacks.</p>
+        <a href="https://github.com/byt3bl33d3r/CrackMapExec/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 85: FuzzDB</h2>
+        <p>Description: A comprehensive database for fuzzing and web application security testing.</p>
+        <a href="https://github.com/fuzzdb-project/fuzzdb/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 86: GoBuster</h2>
+        <p>Description: A tool for directory and file busting using wordlists.</p>
+        <a href="https://github.com/OJ/gobuster/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 87: Amass</h2>
+        <p>Description: A tool for performing DNS enumeration and discovering subdomains.</p>
+        <a href="https://github.com/amass-project/amass/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 88: Pwnagotchi</h2>
+        <p>Description: A tool for learning and cracking WiFi passwords using a Raspberry Pi.</p>
+        <a href="https://github.com/evilsocket/pwnagotchi/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 89: Hydra</h2>
+        <p>Description: A parallelized login cracker that supports numerous protocols and services.</p>
+        <a href="https://github.com/vanhauser-thc/thc-hydra/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 90: XSSHunter</h2>
+        <p>Description: A cross-site scripting (XSS) payload tracking and detection tool.</p>
+        <a href="https://github.com/benkow/xsshunter/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 91: BeEF (Browser Exploitation Framework)</h2>
+        <p>Description: A penetration testing tool focusing on the web browser.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 92: DuckDuckGo Search Injection</h2>
+        <p>Description: A tool to exploit search engine vulnerabilities for DuckDuckGo.</p>
+        <a href="https://github.com/duckduckgo/search-injection/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 93: MISP</h2>
+        <p>Description: A threat intelligence platform to improve the sharing of structured threat information.</p>
+        <a href="https://github.com/MISP/MISP/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 94: Armitage</h2>
+        <p>Description: A graphical cyber attack management tool for Metasploit.</p>
+        <a href="https://github.com/armitage/armitage/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 95: DNSChef</h2>
+        <p>Description: A DNS proxy for penetration testing and security assessments.</p>
+        <a href="https://github.com/iphelix/dnschef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 96: Sqlninja</h2>
+        <p>Description: A tool for exploiting SQL injection vulnerabilities.</p>
+        <a href="https://github.com/evait-security/sqlninja/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 97: PoshC2</h2>
+        <p>Description: A post-exploitation framework designed for PowerShell-based attacks.</p>
+        <a href="https://github.com/PoshC2/PoshC2/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 98: Burp Suite Pro</h2>
+        <p>Description: A comprehensive solution for web application security testing.</p>
+        <a href="https://portswigger.net/burp/releases" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 99: TheHarvester</h2>
+        <p>Description: A tool for gathering e-mail accounts and domain information from different public sources.</p>
+        <a href="https://github.com/laramies/theHarvester/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 100: Searchsploit</h2>
+        <p>Description: A search tool for Exploit-DB vulnerabilities and exploits.</p>
+        <a href="https://github.com/rapid7/searchsploit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+
+      <div class="asset">
+        <h2>Asset 101: SQLMap</h2>
+        <p>Description: An open-source tool for automating SQL injection and database takeover.</p>
+        <a href="https://github.com/sqlmapproject/sqlmap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 102: Nikto</h2>
+        <p>Description: A web server scanner that tests for various vulnerabilities.</p>
+        <a href="https://github.com/sullo/nikto/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 103: OWASP ZAP</h2>
+        <p>Description: A security scanner for web applications, designed to find vulnerabilities.</p>
+        <a href="https://github.com/zaproxy/zaproxy/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 104: Metasploit Framework</h2>
+        <p>Description: A comprehensive platform for developing, testing, and executing exploits.</p>
+        <a href="https://github.com/rapid7/metasploit-framework/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 105: Bettercap</h2>
+        <p>Description: A powerful, flexible tool for network attacks and monitoring.</p>
+        <a href="https://github.com/bettercap/bettercap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 106: Recon-ng</h2>
+        <p>Description: A full-featured web reconnaissance framework written in Python.</p>
+        <a href="https://github.com/lanmaster53/recon-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 107: Wapiti</h2>
+        <p>Description: A web application vulnerability scanner that allows you to audit the security of your web applications.</p>
+        <a href="https://github.com/afloppy/wapiti/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 108: Shodan</h2>
+        <p>Description: A search engine for internet-connected devices, which can help identify vulnerabilities.</p>
+        <a href="https://github.com/achillean/shodan-python/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 109: Social Engineering Toolkit (SET)</h2>
+        <p>Description: A tool designed to perform social engineering attacks and phishing.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 110: Cobalt Strike</h2>
+        <p>Description: A commercial tool for adversary simulations and red teaming.</p>
+        <a href="https://www.cobaltstrike.com/download" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 111: Ettercap</h2>
+        <p>Description: A comprehensive suite for man-in-the-middle attacks on LAN.</p>
+        <a href="https://github.com/Ettercap/ettercap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 112: XSSer</h2>
+        <p>Description: A tool for automatic testing and exploiting of XSS vulnerabilities.</p>
+        <a href="https://github.com/epsylon/xsser/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 113: Faraday</h2>
+        <p>Description: A collaborative penetration testing and vulnerability management platform.</p>
+        <a href="https://github.com/infobyte/faraday/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 114: Aircrack-ng</h2>
+        <p>Description: A suite of tools for assessing WiFi network security.</p>
+        <a href="https://github.com/aircrack-ng/aircrack-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 115: Kismet</h2>
+        <p>Description: A wireless network and device detector, sniffer, and intrusion detection system.</p>
+        <a href="https://github.com/kismetwireless/kismet/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 116: Reaver</h2>
+        <p>Description: A tool for brute-forcing WPA/WPA2 PINs to recover Wi-Fi passwords.</p>
+        <a href="https://github.com/t6x/reaver-wps-fork-t6x/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 117: Wifite</h2>
+        <p>Description: A tool for automated wireless network auditing.</p>
+        <a href="https://github.com/derv82/wifite/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 118: Nmap</h2>
+        <p>Description: A network discovery and security auditing tool.</p>
+        <a href="https://github.com/nmap/nmap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 119: Maltego</h2>
+        <p>Description: A tool for open-source intelligence and forensics.</p>
+        <a href="https://www.paterva.com/web7/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 120: Cuckoo Sandbox</h2>
+        <p>Description: An automated malware analysis system.</p>
+        <a href="https://github.com/cuckoosandbox/cuckoo/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 121: Yersinia</h2>
+        <p>Description: A network attack tool focused on Layer 2 attacks.</p>
+        <a href="https://github.com/chr4nt/yersinia/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 122: Netcat</h2>
+        <p>Description: A versatile network utility for debugging and investigation.</p>
+        <a href="https://github.com/netcat/netcat/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 123: RIPS</h2>
+        <p>Description: A static code analysis tool for detecting vulnerabilities in PHP code.</p>
+        <a href="https://github.com/ripstech/rips/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 124: Recon-NG</h2>
+        <p>Description: A web reconnaissance framework designed to gather information from public sources.</p>
+        <a href="https://github.com/lanmaster53/recon-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 125: Metasploit Unleashed</h2>
+        <p>Description: A free and comprehensive Metasploit Framework course for learning penetration testing.</p>
+        <a href="https://www.offensive-security.com/metasploit-unleashed/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 126: BeEF</h2>
+        <p>Description: The Browser Exploitation Framework focuses on client-side attacks.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 127: Veil-Evasion</h2>
+        <p>Description: A tool to generate payloads that evade anti-virus detection.</p>
+        <a href="https://github.com/Veil-Framework/Veil/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 128: Empire</h2>
+        <p>Description: A post-exploitation framework that includes a range of features for adversary simulations.</p>
+        <a href="https://github.com/EmpireProject/Empire/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 129: Shellshock</h2>
+        <p>Description: An exploit for the Shellshock vulnerability found in Bash.</p>
+        <a href="https://github.com/shellshock/shellshock/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 130: Scapy</h2>
+        <p>Description: A Python library for network packet manipulation and analysis.</p>
+        <a href="https://github.com/secdev/scapy/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 131: Hydra</h2>
+        <p>Description: A fast and flexible password cracker that supports numerous protocols.</p>
+        <a href="https://github.com/vanhauser-thc/thc-hydra/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 132: Burp Suite Community Edition</h2>
+        <p>Description: A tool for web application security testing, offering various testing functionalities.</p>
+        <a href="https://portswigger.net/burp/communitydownload" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 133: OpenVAS</h2>
+        <p>Description: A framework of several services and tools offering vulnerability scanning and management.</p>
+        <a href="https://github.com/greenbone/openvas/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 134: Fimap</h2>
+        <p>Description: A tool for detecting and exploiting file inclusion vulnerabilities.</p>
+        <a href="https://github.com/evait-security/fimap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 135: LinPEAS</h2>
+        <p>Description: A script for finding possible privilege escalation paths on Linux systems.</p>
+        <a href="https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 136: DirBuster</h2>
+        <p>Description: A multi-threaded Java application designed to brute force directories and files on web servers.</p>
+        <a href="https://github.com/dirbuster/dirbuster/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 137: Pompem</h2>
+        <p>Description: A tool for collecting information on vulnerable systems and services.</p>
+        <a href="https://github.com/n00py/pompem/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 138: MISP</h2>
+        <p>Description: An open-source threat intelligence platform to improve the sharing of structured threat information.</p>
+        <a href="https://github.com/MISP/MISP/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 139: Snort</h2>
+        <p>Description: An open-source network intrusion detection system (NIDS) capable of real-time traffic analysis.</p>
+        <a href="https://github.com/snort3/snort3/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 140: OpenSSH</h2>
+        <p>Description: A suite of secure networking utilities based on the SSH protocol.</p>
+        <a href="https://github.com/openssh/openssh-portable/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 141: Social Engineering Toolkit (SET)</h2>
+        <p>Description: A framework for performing social engineering attacks.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 142: W3AF</h2>
+        <p>Description: A Web Application Attack and Audit Framework to identify and exploit web vulnerabilities.</p>
+        <a href="https://github.com/andresriancho/w3af/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 143: Skipfish</h2>
+        <p>Description: A web application security scanner that is both fast and effective.</p>
+        <a href="https://github.com/skipfish/skipfish/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 144: Sqlninja</h2>
+        <p>Description: A tool to exploit SQL injection vulnerabilities on a web application.</p>
+        <a href="https://github.com/sqlninja/sqlninja/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 145: PayloadsAllTheThings</h2>
+        <p>Description: A collection of useful payloads and bypass techniques for various scenarios.</p>
+        <a href="https://github.com/swisskyrepo/PayloadsAllTheThings/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 146: TH3 F1SH</h2>
+        <p>Description: A tool for phishing attacks that supports multiple email providers.</p>
+        <a href="https://github.com/thelinuxchoice/th3f1sh/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 147: Snyk</h2>
+        <p>Description: A tool for identifying and fixing vulnerabilities in dependencies and container images.</p>
+        <a href="https://github.com/snyk/snyk/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button></a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 148: Dnsrecon</h2>
+        <p>Description: A DNS reconnaissance tool designed to discover and enumerate DNS records.</p>
+        <a href="https://github.com/darkoperator/dnsrecon/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 149: Infoga</h2>
+        <p>Description: An information-gathering tool for email accounts.</p>
+        <a href="https://github.com/m4ll0k/Infoga/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 150: Msfconsole</h2>
+        <p>Description: The command-line interface for the Metasploit Framework.</p>
+        <a href="https://github.com/rapid7/metasploit-framework/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 151: LOIC</h2>
+        <p>Description: Low Orbit Ion Cannon, a popular tool for performing Denial of Service (DoS) attacks.</p>
+        <a href="https://github.com/NewEraCracker/LOIC/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 152: HOIC</h2>
+        <p>Description: High Orbit Ion Cannon, another tool for conducting distributed denial-of-service (DDoS) attacks.</p>
+        <a href="https://github.com/rooftop-7/HOIC/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 153: Slowloris</h2>
+        <p>Description: A tool designed to perform a Slowloris attack, which aims to keep many connections to the target web server open and hold them open as long as possible.</p>
+        <a href="https://github.com/gkbrk/slowloris/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 154: XSSer</h2>
+        <p>Description: An automated tool designed to detect and exploit cross-site scripting (XSS) vulnerabilities.</p>
+        <a href="https://github.com/epsylon/xsser/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 155: Sqlmap</h2>
+        <p>Description: An open-source tool that automates the process of detecting and exploiting SQL injection vulnerabilities.</p>
+        <a href="https://github.com/sqlmapproject/sqlmap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 156: Recon-ng</h2>
+        <p>Description: A full-featured reconnaissance framework written in Python to perform open-source intelligence gathering.</p>
+        <a href="https://github.com/lanmaster53/recon-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 157: Nmap</h2>
+        <p>Description: A network scanner used to discover hosts and services on a network and perform security auditing.</p>
+        <a href="https://github.com/nmap/nmap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 158: Metasploit Framework</h2>
+        <p>Description: A powerful penetration testing framework for developing and executing exploit code against a remote target machine.</p>
+        <a href="https://github.com/rapid7/metasploit-framework/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 159: Aircrack-ng</h2>
+        <p>Description: A suite of tools for assessing WiFi network security, including cracking WEP and WPA/WPA2 encryption keys.</p>
+        <a href="https://github.com/aircrack-ng/aircrack-ng/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 160: John the Ripper</h2>
+        <p>Description: A fast password cracker that supports numerous encryption algorithms.</p>
+        <a href="https://github.com/openwall/john/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 161: Cain and Abel</h2>
+        <p>Description: A password recovery tool that can recover various types of passwords using different methods.</p>
+        <a href="https://github.com/ben0x7A/cain-and-abel/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 162: Ettercap</h2>
+        <p>Description: A comprehensive suite for man-in-the-middle attacks on LAN.</p>
+        <a href="https://github.com/Ettercap/ettercap/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 163: Nikto</h2>
+        <p>Description: A web server scanner that detects vulnerabilities in web servers.</p>
+        <a href="https://github.com/sullo/nikto/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 164: Burp Suite Community Edition</h2>
+        <p>Description: A tool for web application security testing, offering various testing functionalities.</p>
+        <a href="https://portswigger.net/burp/communitydownload" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 165: OWASP ZAP</h2>
+        <p>Description: An open-source web application security scanner that helps find vulnerabilities.</p>
+        <a href="https://github.com/zaproxy/zaproxy/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 166: THC-Hydra</h2>
+        <p>Description: A very fast network logon cracker which supports many different services.</p>
+        <a href="https://github.com/vanhauser-thc/thc-hydra/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 167: Wifite</h2>
+        <p>Description: An automated wireless attack tool that supports WEP, WPA, and WPA2.</p>
+        <a href="https://github.com/derv82/wifite/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 168: XSS-Freak</h2>
+        <p>Description: A tool for detecting and exploiting XSS vulnerabilities in web applications.</p>
+        <a href="https://github.com/xfreitas/xss-freak/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 169: WebGoat</h2>
+        <p>Description: A deliberately insecure web application designed to teach web application security lessons.</p>
+        <a href="https://github.com/WebGoat/WebGoat/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 170: Reaver</h2>
+        <p>Description: A tool designed to exploit WPS vulnerabilities in Wi-Fi networks.</p>
+        <a href="https://github.com/t6x/reaver-wps-fork-t6x/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 171: Social-Engineer Toolkit (SET)</h2>
+        <p>Description: A framework for performing social engineering attacks.</p>
+        <a href="https://github.com/trustedsec/social-engineer-toolkit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 172: FuzzDB</h2>
+        <p>Description: A comprehensive database of attack patterns and payloads for fuzz testing and web application security.</p>
+        <a href="https://github.com/fuzzdb-project/fuzzdb/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 173: Ghostscript</h2>
+        <p>Description: A suite of software that provides an interpreter for the PostScript language and for PDF.</p>
+        <a href="https://github.com/ArtifexSoftware/ghostscript/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 174: Wapiti</h2>
+        <p>Description: A web application vulnerability scanner that allows for assessing the security of your web applications.</p>
+        <a href="https://github.com/wapiti-scanner/wapiti/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 175: Cuckoo Sandbox</h2>
+        <p>Description: An open-source automated malware analysis system that allows for the analysis of malicious files and websites.</p>
+        <a href="https://github.com/cuckoosandbox/cuckoo/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 176: ClamAV</h2>
+        <p>Description: An open-source antivirus engine designed to detect various types of malware and malicious software.</p>
+        <a href="https://github.com/Cisco-Talos/clamav/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 177: Nessus</h2>
+        <p>Description: A widely used vulnerability scanner that helps identify vulnerabilities in systems and applications.</p>
+        <a href="https://www.tenable.com/products/nessus" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 178: PwnXSS</h2>
+        <p>Description: A tool designed to assist in detecting cross-site scripting (XSS) vulnerabilities in web applications.</p>
+        <a href="https://github.com/pwnxss/pwnxss/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 179: Maltego</h2>
+        <p>Description: A powerful tool for link analysis and data mining used for open-source intelligence (OSINT) and forensics.</p>
+        <a href="https://github.com/maltego/maltego/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 180: Joomscan</h2>
+        <p>Description: A tool for scanning Joomla websites to detect security vulnerabilities.</p>
+        <a href="https://github.com/rezasp/joomscan/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 181: Shodan</h2>
+        <p>Description: A search engine for Internet-connected devices, helping to find vulnerable systems and services.</p>
+        <a href="https://github.com/robertdavidgraham/shodan/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 182: PowerSploit</h2>
+        <p>Description: A collection of Microsoft PowerShell scripts used for penetration testing and exploitation.</p>
+        <a href="https://github.com/PowerShellMafia/PowerSploit/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 183: Red Team Tools</h2>
+        <p>Description: A collection of tools and resources for red teaming, including exploitation frameworks and scripts.</p>
+        <a href="https://github.com/redteamtools/redteamtools/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 184: BeEF</h2>
+        <p>Description: The Browser Exploitation Framework (BeEF) focuses on client-side attacks and exploitation.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 185: Airgeddon</h2>
+        <p>Description: A multi-use bash script for wireless attacks, including WEP, WPA, and WPA2.</p>
+        <a href="https://github.com/v1s1t0r1sh3r3/airgeddon/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 186: Hydra</h2>
+        <p>Description: A network login cracker supporting various protocols to perform brute-force attacks.</p>
+        <a href="https://github.com/vanhauser-thc/thc-hydra/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 187: RIPS</h2>
+        <p>Description: A static code analysis tool designed to identify vulnerabilities in PHP applications.</p>
+        <a href="https://github.com/rips/rips/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 188: OWASP Dependency-Check</h2>
+        <p>Description: A tool for identifying project dependencies and checking if there are any known vulnerabilities.</p>
+        <a href="https://github.com/jeremydmiller/OWASP-Dependency-Check/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 189: Kismet</h2>
+        <p>Description: A wireless network detector, sniffer, and intrusion detection system.</p>
+        <a href="https://github.com/kismetwireless/kismet/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 190: Volatility</h2>
+        <p>Description: An advanced memory forensics framework for extracting digital artifacts from volatile memory.</p>
+        <a href="https://github.com/volatilityfoundation/volatility/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 191: Cewl</h2>
+        <p>Description: A custom wordlist generator for use in password cracking and other applications.</p>
+        <a href="https://github.com/digininja/CeWL/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 192: OpenVAS</h2>
+        <p>Description: An open-source vulnerability scanner and management tool.</p>
+        <a href="https://github.com/greenbone/openvas-scanner/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 193: SQLNinja</h2>
+        <p>Description: A tool for exploiting SQL injection vulnerabilities on Microsoft SQL Server.</p>
+        <a href="https://github.com/sqlninja/sqlninja/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 194: Evil-WinRM</h2>
+        <p>Description: A powerful tool for performing Windows Remote Management (WinRM) attacks.</p>
+        <a href="https://github.com/Hackplayers/evil-winrm/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 195: Empire</h2>
+        <p>Description: A post-exploitation framework for PowerShell and Windows-based attacks.</p>
+        <a href="https://github.com/EmpireProject/Empire/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 196: NCat</h2>
+        <p>Description: A powerful network utility for reading and writing data across networks.</p>
+        <a href="https://github.com/nmap/ncat/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 197: Fsociety</h2>
+        <p>Description: A collection of hacking tools for security testing and penetration testing.</p>
+        <a href="https://github.com/Manisso/fsociety/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 198: Dradis</h2>
+        <p>Description: A tool for managing information during security assessments, including the reporting process.</p>
+        <a href="https://github.com/dradis/dradis-framework/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 199: BeEF</h2>
+        <p>Description: Browser Exploitation Framework focusing on client-side attacks.</p>
+        <a href="https://github.com/beefproject/beef/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 200: Wifite</h2>
+        <p>Description: An automated wireless attack tool supporting WEP, WPA, and WPA2 cracking.</p>
+        <a href="https://github.com/derv82/wifite/archive/refs/heads/master.zip" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 201: Burp Suite Professional</h2>
+        <p>Description: A comprehensive web vulnerability scanner and proxy for advanced web application security testing.</p>
+        <a href="https://portswigger.net/burp" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 202: Metasploit Pro</h2>
+        <p>Description: An advanced penetration testing framework with comprehensive exploits and payloads.</p>
+        <a href="https://www.rapid7.com/products/metasploit/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 203: Nessus Professional</h2>
+        <p>Description: A commercial vulnerability scanner for identifying and managing security vulnerabilities.</p>
+        <a href="https://www.tenable.com/products/nessus/nessus-professional" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 204: Sumo Logic</h2>
+        <p>Description: A cloud-based log management and analytics platform for security monitoring and threat detection.</p>
+        <a href="https://www.sumologic.com/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 205: Wireshark</h2>
+        <p>Description: A widely-used network protocol analyzer for network troubleshooting and security analysis.</p>
+        <a href="https://www.wireshark.org/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 206: Splunk</h2>
+        <p>Description: A powerful platform for searching, monitoring, and analyzing machine-generated big data.</p>
+        <a href="https://www.splunk.com/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 207: IBM QRadar</h2>
+        <p>Description: A comprehensive security information and event management (SIEM) system for threat detection and response.</p>
+        <a href="https://www.ibm.com/security/security-intelligence/qradar" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 208: FortiGate</h2>
+        <p>Description: A high-performance next-generation firewall for advanced network security.</p>
+        <a href="https://www.fortinet.com/products/next-generation-firewall" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 209: Palo Alto Networks</h2>
+        <p>Description: A leading next-generation firewall solution for enterprise network security.</p>
+        <a href="https://www.paloaltonetworks.com/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 210: Acunetix</h2>
+        <p>Description: A web vulnerability scanner for identifying and addressing security issues in web applications.</p>
+        <a href="https://www.acunetix.com/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 211: SANS Institute Courses</h2>
+        <p>Description: A range of professional cybersecurity courses covering various topics and certifications.</p>
+        <a href="https://www.sans.org/cyber-security-courses" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 212: Offensive Security Certified Professional (OSCP)</h2>
+        <p>Description: An advanced penetration testing certification course from Offensive Security.</p>
+        <a href="https://www.offensive-security.com/pwk-oscp/" target="_blank">
+          <button>Enroll</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 213: Certified Ethical Hacker (CEH)</h2>
+        <p>Description: A widely-recognized certification for ethical hacking and penetration testing skills.</p>
+        <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" target="_blank">
+          <button>Enroll</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 214: Certified Information Systems Security Professional (CISSP)</h2>
+        <p>Description: A globally recognized certification for information security professionals.</p>
+        <a href="https://www.isc2.org/Certifications/CISSP" target="_blank">
+          <button>Enroll</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 215: CompTIA Security+</h2>
+        <p>Description: A foundational cybersecurity certification covering a wide range of security topics.</p>
+        <a href="https://www.comptia.org/certifications/security" target="_blank">
+          <button>Enroll</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 216: Coursera Cybersecurity Specialization</h2>
+        <p>Description: A series of online courses from Coursera focused on various aspects of cybersecurity.</p>
+        <a href="https://www.coursera.org/specializations/intro-cyber-security" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 217: Udemy Cybersecurity Courses</h2>
+        <p>Description: A selection of professional cybersecurity courses available on Udemy.</p>
+        <a href="https://www.udemy.com/topic/ethical-hacking/" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 218: Pluralsight Security Path</h2>
+        <p>Description: A learning path on Pluralsight dedicated to various aspects of cybersecurity.</p>
+        <a href="https://www.pluralsight.com/paths/security" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 219: Cybrary Security Courses</h2>
+        <p>Description: A range of free and paid cybersecurity courses offered by Cybrary.</p>
+        <a href="https://www.cybrary.it/" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 220: HackerOne Community Courses</h2>
+        <p>Description: A collection of free resources and courses for ethical hacking and bug bounty hunting.</p>
+        <a href="https://www.hackerone.com/resources" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 221: SecTools.net Top Security Tools</h2>
+        <p>Description: A list of top security tools for various aspects of cybersecurity.</p>
+        <a href="https://sectools.org/" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 222: Hack The Box</h2>
+        <p>Description: An online platform for practicing penetration testing and ethical hacking skills.</p>
+        <a href="https://www.hackthebox.com/" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 223: TryHackMe</h2>
+        <p>Description: An interactive platform offering hands-on cybersecurity training and challenges.</p>
+        <a href="https://tryhackme.com/" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 224: Offensive Security's Advanced Web Attacks and Exploitation (AWAE)</h2>
+        <p>Description: An advanced course focusing on web application security and exploitation.</p>
+        <a href="https://www.offensive-security.com/awae-oswe/" target="_blank">
+          <button>Enroll</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 225: Introduction to Cyber Security - Free Course by Cisco</h2>
+        <p>Description: A beginner-friendly course covering fundamental concepts of cybersecurity.</p>
+        <a href="https://www.netacad.com/courses/cybersecurity/intro-cyber-security" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 226: MITRE ATT&CK Framework</h2>
+        <p>Description: A knowledge base of adversary tactics and techniques used for threat modeling and defense.</p>
+        <a href="https://attack.mitre.org/" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 227: Cuckoo Sandbox</h2>
+        <p>Description: An open-source automated malware analysis system.</p>
+        <a href="https://cuckoosandbox.org/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 228: Suricata</h2>
+        <p>Description: A high-performance Network IDS, IPS, and Network Security Monitoring (NSM) engine.</p>
+        <a href="https://suricata.io/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 229: Snort</h2>
+        <p>Description: An open-source network intrusion detection system (NIDS) for real-time traffic analysis.</p>
+        <a href="https://www.snort.org/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 230: Kali Linux - Offensive Security's Penetration Testing Distribution</h2>
+        <p>Description: A popular Linux distribution used for penetration testing and security assessments.</p>
+        <a href="https://www.kali.org/downloads/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 231: OWASP ZAP</h2>
+        <p>Description: An open-source web application security scanner designed to find vulnerabilities.</p>
+        <a href="https://www.zaproxy.org/" target="_blank">
+          <button>Download</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 232: The Art of Exploitation by Jon Erickson</h2>
+        <p>Description: A comprehensive book on the art of exploitation and hacking techniques.</p>
+        <a href="https://www.nostarch.com/hacking2" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 233: Hacking: The Art of Exploitation by Jon Erickson</h2>
+        <p>Description: A well-known book covering the fundamentals of hacking and exploit development.</p>
+        <a href="https://www.nostarch.com/hacking2" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 234: Cybersecurity for Beginners by Raef Meeuwisse</h2>
+        <p>Description: A beginner-friendly book introducing key concepts in cybersecurity.</p>
+        <a href="https://www.amazon.com/Cybersecurity-Beginners-Raef-Meeuwisse/dp/1911452112" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 235: The Web Application Hacker's Handbook</h2>
+        <p>Description: A comprehensive guide to web application security and penetration testing techniques.</p>
+        <a href="https://www.wiley.com/en-us/The+Web+Application+Hacker%27s+Handbook%3A+Discovering+and+Exploiting+Security+Flaws%2C+2nd+Edition-p-9781118026476" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 236: Ethical Hacking: A Hands-on Introduction to Breaking In</h2>
+        <p>Description: A practical guide to ethical hacking techniques and methodologies.</p>
+        <a href="https://www.amazon.com/Ethical-Hacking-Hands-Introduction-Breaking/dp/1119617800" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 237: The Hacker Playbook 3</h2>
+        <p>Description: A detailed guide to advanced hacking techniques and real-world attack methodologies.</p>
+        <a href="https://www.amazon.com/Hacker-Playbook-3-Practical-Guide/dp/1980615590" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 238: Cybersecurity Fundamentals by ISACA</h2>
+        <p>Description: A course providing a solid foundation in cybersecurity concepts and practices.</p>
+        <a href="https://www.isaca.org/credentialing/cybersecurity-fundamentals" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 239: Introduction to Cyber Security by Cisco</h2>
+        <p>Description: A course offering a comprehensive introduction to cybersecurity fundamentals.</p>
+        <a href="https://www.netacad.com/courses/cybersecurity/intro-cyber-security" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 240: Advanced Penetration Testing: Hacking the World's Most Secure Networks</h2>
+        <p>Description: An advanced course focused on penetration testing techniques for highly secure networks.</p>
+        <a href="https://www.amazon.com/Advanced-Penetration-Testing-Secure-Networks/dp/0071849096" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 241: The Ethical Hacker's Handbook</h2>
+        <p>Description: A guide to ethical hacking practices, including methodologies and case studies.</p>
+        <a href="https://www.amazon.com/Ethical-Hackers-Handbook-2nd/dp/1119471677" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 242: Advanced Security Awareness Training</h2>
+        <p>Description: A training program focusing on advanced security awareness and best practices.</p>
+        <a href="https://www.sans.org/security-awareness-training" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 243: Hacker House's Offensive Security Training</h2>
+        <p>Description: An advanced training program covering various offensive security techniques and tools.</p>
+        <a href="https://www.hacker.house/training" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 244: Blue Team Handbook: Incident Response Edition</h2>
+        <p>Description: A guide for incident response and blue team operations, focusing on defensive measures.</p>
+        <a href="https://www.amazon.com/Blue-Team-Handbook-Incident-Response/dp/0990984318" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 245: The Art of Memory Forensics</h2>
+        <p>Description: A detailed guide to memory forensics techniques and methodologies for advanced investigations.</p>
+        <a href="https://www.amazon.com/Art-Memory-Forensics-Detective-Situations/dp/1118825070" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 246: Practical Malware Analysis</h2>
+        <p>Description: A comprehensive book on malware analysis techniques, including hands-on exercises.</p>
+        <a href="https://www.amazon.com/Practical-Malware-Analysis-Hands-Study/dp/1593272901" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 247: The Cloud Security Handbook</h2>
+        <p>Description: A guide to cloud security practices, risk management, and compliance.</p>
+        <a href="https://www.amazon.com/Cloud-Security-Handbook-2019-2020/dp/0367332174" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 248: Reverse Engineering for Beginners</h2>
+        <p>Description: A book on reverse engineering techniques and tools for beginners.</p>
+        <a href="https://www.amazon.com/Reverse-Engineering-Beginners-Dmitry-Subin/dp/1944321705" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 249: Digital Forensics and Incident Response</h2>
+        <p>Description: A comprehensive guide to digital forensics and incident response methodologies.</p>
+        <a href="https://www.amazon.com/Digital-Forensics-Incident-Response-Professionals/dp/0128043196" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>
+      
+      <div class="asset">
+        <h2>Asset 250: Hacking Exposed</h2>
+        <p>Description: A series of books detailing various hacking techniques and countermeasures.</p>
+        <a href="https://www.amazon.com/Hacking-Exposed-Computer-Security-Strategies/dp/1260452642" target="_blank">
+          <button>Explore</button>
+        </a>
+      </div>      
+      
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Quicksilver</p>
+      <p>Contact: <a href="mailto:hartofstone92@gmail.com">E-Mail</a></p>
+      <p>Follow us: 
+        <a href="https://github.com/Quicksilver-lab" target="_blank">GitHub</a> | 
+        <a href="https://instagram.com/quicksilver437" target="_blank">Instagram</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function searchAssets() {
+      const input = document.getElementById('search-input').value.toLowerCase();
+      const assets = document.querySelectorAll('.asset');
+      
+      assets.forEach(asset => {
+        const title = asset.querySelector('h2').textContent.toLowerCase();
+        const description = asset.querySelector('p').textContent.toLowerCase();
+        
+        if (title.includes(input) || description.includes(input)) {
+          asset.style.display = 'block';
+        } else {
+          asset.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
